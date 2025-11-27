@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{867CA891-A906-98C6-3AD7-4DDA975F77CF}</ProjectGuid>
+    <ProjectGuid>{D24FA65E-50B5-63BA-F88D-638A0585604C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\01_Scripts\TheAngel.cs" />
     <Compile Include="Assets\01_Scripts\DebrisTrigger.cs" />
     <Compile Include="Assets\01_Scripts\Bat.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
@@ -88,6 +89,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\01_Scripts\BodyProjectile.cs" />
     <Compile Include="Assets\01_Scripts\WarningPulse.cs" />
+    <Compile Include="Assets\01_Scripts\AngelProjectile.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\01_Scripts\Key.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
@@ -95,6 +97,7 @@
     <Compile Include="Assets\01_Scripts\scriptHistorias\EcoVacio.cs" />
     <Compile Include="Assets\01_Scripts\PlayerHealthUI.cs" />
     <Compile Include="Assets\01_Scripts\InventoryUI.cs" />
+    <Compile Include="Assets\01_Scripts\RainProjectile.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\01_Scripts\scriptHistorias\HermanoSobra.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
@@ -135,9 +138,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\01_Scripts\PlayerProjectile.cs" />
-    <Compile Include="Assets\01_Scripts\TheAngel.cs" />
-    <Compile Include="Assets\01_Scripts\AngelProjectile.cs" />
-    <Compile Include="Assets\01_Scripts\RainProjectile.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

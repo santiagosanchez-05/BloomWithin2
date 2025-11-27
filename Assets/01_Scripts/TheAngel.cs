@@ -14,25 +14,32 @@ public class TheAngel : Boss
     public Rigidbody2D rb;
 
     [Header("Control del combate")]
-    public float timeBetweenAttacks = 0.9f; // ?? Más agresivo
+    public float timeBetweenAttacks = 0.9f;
     private int attackCounter = 0;
 
     [Header("Blink Attack")]
     public int blinkCount = 3;
-    public float blinkDelay = 0.28f; // ?? Más rápido
+    public float blinkDelay = 0.28f;
     public GameObject bossProjectile;
-    public float projectileSpeed = 10f; // ?? Mucho más agresivo
+    public float projectileSpeed = 10f;
     public int blinkProjectiles = 6;
 
     [Header("Chase Attack")]
-    public float chargeDelay = 0.6f; // ?? menor delay
-    public float chaseSpeed = 18f;   // ?? más velocidad
+    public float chargeDelay = 0.6f;
+    public float chaseSpeed = 18f;
 
     [Header("Rain Attack")]
     public GameObject rainProjectile;
-    public float rainInterval = 0.1f;   // ?? más lluvia
-    public float rainDuration = 1.7f;   // ?? más corto pero intenso
-    public float rainRest = 2f;         // ?? menos descanso
+    public float rainInterval = 0.1f;
+    public float rainDuration = 1.7f;
+
+    [Header("Idle Config")]
+    public float maxIdleTime = 5f;
+
+    [Header("Contacto")]
+    public int contactDamage = 1;
+    public float contactCooldown = 1f;
+    private bool canContactDamage = true;
 
     [Header("Audio")]
     public AudioClip tpSound;
@@ -51,9 +58,6 @@ public class TheAngel : Boss
         StartCoroutine(AttackPattern());
     }
 
-    // =========================================================
-    // LOOP PRINCIPAL
-    // =========================================================
     IEnumerator AttackPattern()
     {
         yield return EntryState();
@@ -64,7 +68,6 @@ public class TheAngel : Boss
 
             attackCounter++;
 
-            // ?? descanso cada 5 ataques
             if (attackCounter >= 5)
             {
                 attackCounter = 0;
@@ -80,22 +83,19 @@ public class TheAngel : Boss
         }
     }
 
-    // =========================================================
-    // ENTRADA
-    // =========================================================
     IEnumerator EntryState()
     {
         isVulnerable = false;
 
-        float dist = Mathf.Abs(cam.transform.position.z - transform.position.z);
         Vector3 start = new Vector3(transform.position.x, transform.position.y + 6f, transform.position.z);
         Vector3 end = transform.position;
+
         float t = 0;
 
         while (t < 1f)
         {
             transform.position = Vector3.Lerp(start, end, t);
-            t += Time.deltaTime * 0.8f;
+            t += Time.deltaTime / 2f;
             yield return null;
         }
 
@@ -103,7 +103,7 @@ public class TheAngel : Boss
     }
 
     // =========================================================
-    // PAUSA CENTRAL
+    // PAUSA (limitado a 5 segundos MÁXIMO)
     // =========================================================
     IEnumerator PauseCenter()
     {
@@ -114,16 +114,18 @@ public class TheAngel : Boss
 
         rb.velocity = Vector2.zero;
 
-        yield return new WaitForSeconds(1f);
+        // ?? nunca más de 5 segundos
+        float idle = Random.Range(1f, maxIdleTime);
+        yield return new WaitForSeconds(idle);
     }
 
     // =========================================================
-    // TELETRANSPORTE — FIX REAL
+    // TELETRANSPORTE
     // =========================================================
     void TeleportEdge()
     {
-        float x = UnityEngine.Random.value < 0.5f ? 0.15f : 0.85f;
-        float y = UnityEngine.Random.Range(0.25f, 0.75f);
+        float x = Random.value < 0.5f ? 0.15f : 0.85f;
+        float y = Random.Range(0.25f, 0.75f);
 
         float dist = Mathf.Abs(cam.transform.position.z - transform.position.z);
         transform.position = cam.ViewportToWorldPoint(new Vector3(x, y, dist));
@@ -131,9 +133,6 @@ public class TheAngel : Boss
         if (tpSound) audioSource.PlayOneShot(tpSound);
     }
 
-    // =========================================================
-    // BLINK ATTACK
-    // =========================================================
     IEnumerator BlinkAttack()
     {
         for (int i = 0; i < blinkCount; i++)
@@ -165,9 +164,6 @@ public class TheAngel : Boss
         if (shootSound) audioSource.PlayOneShot(shootSound);
     }
 
-    // =========================================================
-    // CHASE
-    // =========================================================
     IEnumerator ChaseAttack()
     {
         if (player == null) yield break;
@@ -191,22 +187,27 @@ public class TheAngel : Boss
     }
 
     // =========================================================
-    // LLUVIA
+    // LLUVIA — YA NO SE QUEDA QUIETO AL FINAL
     // =========================================================
     IEnumerator RainAttack()
     {
         float dist = Mathf.Abs(cam.transform.position.z - transform.position.z);
         transform.position = cam.ViewportToWorldPoint(new Vector3(0.85f, 0.60f, dist));
+
         rb.velocity = Vector2.zero;
+
+        // ?? quieto máximo 5 segundos antes
+        float idle = Random.Range(1f, maxIdleTime);
+        yield return new WaitForSeconds(idle);
 
         float t = 0;
         while (t < rainDuration)
         {
-            float x = UnityEngine.Random.Range(0.1f, 0.9f);
+            float x = Random.Range(0.1f, 0.9f);
             Vector3 spawn = cam.ViewportToWorldPoint(new Vector3(x, 1.1f, dist));
 
             GameObject r = Instantiate(rainProjectile, spawn, Quaternion.identity);
-            r.GetComponent<Rigidbody2D>().velocity = new Vector2(0, UnityEngine.Random.Range(-10f, -6f));
+            r.GetComponent<Rigidbody2D>().velocity = new Vector2(0, Random.Range(-10f, -6f));
 
             Destroy(r, 5f);
 
@@ -214,12 +215,34 @@ public class TheAngel : Boss
             yield return new WaitForSeconds(rainInterval);
         }
 
-        yield return new WaitForSeconds(rainRest);
+        // ?? inmediatamente después de la lluvia ? TELETRANSPORTA Y SIGUE
+        TeleportEdge();
+        rb.velocity = Vector2.zero;
     }
 
     // =========================================================
-    // MUERTE
+    // CONTACTO
     // =========================================================
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player") && canContactDamage)
+        {
+            StartCoroutine(ContactDamage(collision.gameObject));
+        }
+    }
+
+    IEnumerator ContactDamage(GameObject playerObj)
+    {
+        canContactDamage = false;
+
+        Player p = playerObj.GetComponent<Player>();
+        if (p != null)
+            p.TakeDamage(contactDamage);
+
+        yield return new WaitForSeconds(contactCooldown);
+        canContactDamage = true;
+    }
+
     protected void KillAngel()
     {
         if (isDead) return;
