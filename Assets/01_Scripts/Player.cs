@@ -71,6 +71,10 @@ public class Player : MonoBehaviour
     private bool canShoot = true;
     public AudioClip shootSound;
 
+    [Header("Invencibilidad")]
+    public float invincibleTime = 1f; // tiempo invencible tras daño
+    private bool isInvincible = false;
+
     [Header("Animación")]
     public Animator animator;
 
@@ -319,13 +323,21 @@ public class Player : MonoBehaviour
 
     public void TakeDamage(int damage, bool teleportOnHit = false, string sourceTag = "")
     {
+        // ⛔ Si tiene escudo → NO recibe daño
         if (isShieldActive) return;
+
+        // ⛔ Si está invencible → NO recibe daño
+        if (isInvincible) return;
+
+        // activar invencibilidad temporal
+        StartCoroutine(InvincibilityFrames());
+
         life -= damage;
         UIAudioManager.Instance.PlaySFX(damageSound, 1f);
 
         Debug.Log($"💔 Player recibió daño ({sourceTag}). Vida: {life}");
 
-        // ☠️ 1️⃣ Si la vida llegó a 0 o menos → MUERE SIEMPRE
+        // ☠️ MUERTE
         if (life <= 0)
         {
             Debug.Log("☠️ Jugador ha muerto.");
@@ -333,16 +345,41 @@ public class Player : MonoBehaviour
             return;
         }
 
-        // 🟦 2️⃣ Si NO murió pero este daño pide teletransporte
+        // 🔁 Si este daño pide teletransporte (electricidad, etc.)
         if (teleportOnHit)
         {
             StartCoroutine(TeleportAfterDamage());
             return;
         }
 
-        // 🟥 3️⃣ Daño normal sin teletransporte
+        // 🔴 Flash
         StartCoroutine(FlashDamage());
     }
+
+    IEnumerator InvincibilityFrames()
+    {
+        isInvincible = true;
+
+        // Opcional: parpadeo estilo Hollow Knight
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+
+        float t = 0f;
+        while (t < invincibleTime)
+        {
+            if (sr != null)
+            {
+                sr.enabled = false;
+                yield return new WaitForSeconds(0.1f);
+                sr.enabled = true;
+                yield return new WaitForSeconds(0.1f);
+            }
+
+            t += 0.2f;
+        }
+
+        isInvincible = false;
+    }
+
 
 
 
