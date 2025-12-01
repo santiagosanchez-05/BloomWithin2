@@ -594,6 +594,7 @@ MonoBehaviour:
   projectileSpeed: 12
   shootCooldown: 0.8
   shootSound: {fileID: 8300000, guid: 78b28df32fa799942b3ed106b060d148, type: 3}
+  invincibleTime: 1
   animator: {fileID: 131439172}
   hitsEnemy: 0
 --- !u!4 &131439171
@@ -6766,7 +6767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b55d25b579cb8439e63067782b3dd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Life: 100
+  Life: 175
   healthBar: {fileID: 2098794875}
   bossUI: {fileID: 1985531011}
   rb: {fileID: 589230428}
@@ -7818,7 +7819,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 96ac91e7e71b56949b6a24439dc6b6f6, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 231d9a12cd894de4e9f0ac13989a6193, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
