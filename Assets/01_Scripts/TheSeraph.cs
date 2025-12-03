@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 
 public class TheSeraph : Boss
@@ -11,6 +11,7 @@ public class TheSeraph : Boss
     private Transform player;
     private Camera cam;
     private AudioSource audioSource;
+    private Animator anim;              // ✅ ANIMATOR
     public Rigidbody2D rb;
 
     [Header("Control del combate")]
@@ -27,10 +28,10 @@ public class TheSeraph : Boss
     public int homingAmount = 8;
     public float homingSpawnInterval = 0.15f;
     public float fallSpeed = 25f;
-    public float homingSpawnHeight = 2f;    // ?? se instancian arriba del jefe
-    public float homingSpreadX = 2f;       // ?? dispersi�n horizontal
+    public float homingSpawnHeight = 2f;
+    public float homingSpreadX = 2f;
 
-    [Header("Rain Attack (AGREGADO)")]
+    [Header("Rain Attack")]
     public GameObject rainProjectile;
     public float rainInterval = 0.1f;
     public float rainDuration = 1.8f;
@@ -53,17 +54,23 @@ public class TheSeraph : Boss
     public AudioClip fallSound;
     public AudioClip deathSound;
 
+    // =========================================================
+
     void Start()
     {
         cam = Camera.main;
         audioSource = GetComponent<AudioSource>();
+        anim = GetComponent<Animator>();               // ✅
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
 
         if (healthBar != null)
             healthBar.SetMaxHealth(Life);
 
+        anim.SetTrigger("Entry");                      // ✅ ANIM DE ENTRADA
         StartCoroutine(AttackPattern());
     }
+
+    // =========================================================
 
     IEnumerator AttackPattern()
     {
@@ -86,9 +93,11 @@ public class TheSeraph : Boss
             if (attack == 0) yield return Teleport4Shot();
             if (attack == 1) yield return HeavenfallHoming();
             if (attack == 2) yield return BlinkAttack();
-            if (attack == 3) yield return RainAttack();   // ? NUEVO ATAQUE
+            if (attack == 3) yield return RainAttack();
         }
     }
+
+    // =========================================================
 
     IEnumerator EntryState()
     {
@@ -112,12 +121,16 @@ public class TheSeraph : Boss
     {
         isVulnerable = true;
         rb.velocity = Vector2.zero;
-
         yield return new WaitForSeconds(Random.Range(1f, maxIdleTime));
     }
 
+    // =========================================================
+    // TELEPORT
+    // =========================================================
     void TeleportRandom()
     {
+        anim.SetTrigger("Teleport");        // ✅ ANIM TELEPORT
+
         float x = Random.value < 0.5f ? 0.15f : 0.85f;
         float y = Random.Range(0.2f, 0.8f);
 
@@ -127,10 +140,15 @@ public class TheSeraph : Boss
         if (tpSound) audioSource.PlayOneShot(tpSound);
     }
 
+    // =========================================================
+    // TELEPORT + DISPARO
+    // =========================================================
     IEnumerator Teleport4Shot()
     {
         TeleportRandom();
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.25f);
+
+        anim.SetTrigger("Shoot");           // ✅ ANIM DISPARO
 
         for (int i = 0; i < teleportShots; i++)
         {
@@ -148,39 +166,35 @@ public class TheSeraph : Boss
     }
 
     // =========================================================
-    // ATAQUE DE HOMING MEJORADO (SEPARACI�N + ALTURA)
+    // HEAVENFALL HOMING
     // =========================================================
     IEnumerator HeavenfallHoming()
     {
+        anim.SetTrigger("Heavenfall");      // ✅ ANIM CAÍDA
         isVulnerable = false;
 
         float dist = Mathf.Abs(cam.transform.position.z - transform.position.z);
 
-        // Posici�n arriba del jugador
         Vector3 startPos = cam.ViewportToWorldPoint(new Vector3(0.5f, 1.15f, dist));
         transform.position = startPos;
 
         rb.velocity = Vector2.zero;
         yield return new WaitForSeconds(0.4f);
 
-        // Ca�da
         while (transform.position.y > player.position.y + 1f)
         {
             transform.position += Vector3.down * fallSpeed * Time.deltaTime;
             yield return null;
         }
 
-        rb.velocity = Vector2.zero;
-
         if (fallSound) audioSource.PlayOneShot(fallSound);
 
-        // ?? SPAWNEO ARRIBA + SEPARADOS EN X
         for (int i = 0; i < homingAmount; i++)
         {
             float offsetX = Random.Range(-homingSpreadX, homingSpreadX);
             Vector3 spawnPos = new Vector3(
                 transform.position.x + offsetX,
-                transform.position.y + homingSpawnHeight,   // ?? siempre arriba del jefe
+                transform.position.y + homingSpawnHeight,
                 transform.position.z
             );
 
@@ -194,10 +208,12 @@ public class TheSeraph : Boss
     }
 
     // =========================================================
-    // ATAQUE DE LLUVIA (AGREGADO)
+    // RAIN ATTACK
     // =========================================================
     IEnumerator RainAttack()
     {
+        anim.SetTrigger("Rain");            // ✅ ANIM LLUVIA
+
         float dist = Mathf.Abs(cam.transform.position.z - transform.position.z);
 
         rb.velocity = Vector2.zero;
@@ -220,12 +236,19 @@ public class TheSeraph : Boss
         yield return new WaitForSeconds(rainRest);
     }
 
+    // =========================================================
+    // BLINK
+    // =========================================================
     IEnumerator BlinkAttack()
     {
+        anim.SetTrigger("Blink");           // ✅ ANIM BLINK
         TeleportRandom();
         yield return new WaitForSeconds(blinkDelay);
     }
 
+    // =========================================================
+    // DAÑO POR CONTACTO
+    // =========================================================
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player") && canContactDamage)
@@ -243,6 +266,9 @@ public class TheSeraph : Boss
         canContactDamage = true;
     }
 
+    // =========================================================
+    // MUERTE
+    // =========================================================
     protected void KillSeraph()
     {
         if (isDead) return;
@@ -250,9 +276,22 @@ public class TheSeraph : Boss
 
         if (deathSound) audioSource.PlayOneShot(deathSound);
 
+        anim.SetTrigger("Death");           // ✅ ANIM MUERTE
+
         StopAllCoroutines();
         Destroy(gameObject, 2f);
 
         base.Die();
     }
+
+    // =========================================================
+    // DAÑO NORMAL (CUANDO LE PEGAN)
+    // =========================================================
+    //public override void TakeDamage(int damage)
+    //{
+    //    base.TakeDamage(damage);
+
+    //    if (anim != null)
+    //        anim.SetTrigger("Hurt");        // ✅ ANIM DAÑO
+    //}
 }
