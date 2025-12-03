@@ -12,18 +12,19 @@ public class TheSeraphPhase2 : Boss
     private Rigidbody2D rb;
     private Camera cam;
     private AudioSource audioSource;
+    private Animator animator;
 
     [Header("Stats Fase 2")]
-    public float timeBetweenAttacks = 0.7f;    // Más rápido
-    public float speedMultiplier = 1.5f;       // 50% más veloz
+    public float timeBetweenAttacks = 0.7f;
+    public float speedMultiplier = 1.5f;
     private int attackCounter = 0;
 
-    [Header("Teleport Shot Attack (Mejorado)")]
+    [Header("Teleport Shot Attack")]
     public GameObject bossProjectile;
     public float projectileSpeed = 14f;
-    public int teleportShots = 8;              // Ahora 8 proyectiles
+    public int teleportShots = 8;
 
-    [Header("Homing Attack Mejorado")]
+    [Header("Homing Attack")]
     public GameObject homingProjectilePrefab;
     public int homingAmount = 12;
     public float homingSpawnInterval = 0.1f;
@@ -36,7 +37,7 @@ public class TheSeraphPhase2 : Boss
     public float rainInterval = 0.08f;
     public float rainDuration = 2f;
 
-    [Header("Teleport Stalker (NUEVO ATAQUE)")]
+    [Header("Teleport Stalker")]
     public float stalkerWarningTime = 1f;
     public float stalkerSafeDistance = 1.8f;
 
@@ -58,14 +59,17 @@ public class TheSeraphPhase2 : Boss
     public AudioClip stalkerWarningSound;
     public AudioClip deathSound;
 
+    // =========================================================
+    // START
+    // =========================================================
     void Start()
     {
         cam = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
+        animator = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
 
-        // VIDA 50% MÁS
         Life = Mathf.RoundToInt(Life * 1.5f);
 
         if (healthBar != null)
@@ -74,6 +78,9 @@ public class TheSeraphPhase2 : Boss
         StartCoroutine(AttackPattern());
     }
 
+    // =========================================================
+    // PATRÓN DE ATAQUES
+    // =========================================================
     IEnumerator AttackPattern()
     {
         while (Life > 0)
@@ -84,6 +91,7 @@ public class TheSeraphPhase2 : Boss
             if (attackCounter >= 7)
             {
                 attackCounter = 0;
+                animator.SetTrigger("Idle");
                 yield return Idle();
                 continue;
             }
@@ -93,12 +101,12 @@ public class TheSeraphPhase2 : Boss
             if (attack == 0) yield return TeleportShot8();
             if (attack == 1) yield return HeavenfallHoming();
             if (attack == 2) yield return RainAttack();
-            if (attack == 3) yield return TeleportStalker();   // ? NUEVO ATAQUE
+            if (attack == 3) yield return TeleportStalker();
         }
     }
 
     // =========================================================
-    // DESCANSO
+    // IDLE
     // =========================================================
     IEnumerator Idle()
     {
@@ -107,24 +115,25 @@ public class TheSeraphPhase2 : Boss
     }
 
     // =========================================================
-    // TELETRANSPORTE RANDOM
+    // TELEPORT RANDOM
     // =========================================================
     void TeleportRandom()
     {
         float x = Random.value < 0.5f ? 0.2f : 0.8f;
         float y = Random.Range(0.25f, 0.75f);
-
         float dist = Mathf.Abs(cam.transform.position.z - transform.position.z);
+
         transform.position = cam.ViewportToWorldPoint(new Vector3(x, y, dist));
 
         if (tpSound) audioSource.PlayOneShot(tpSound);
     }
 
     // =========================================================
-    // ATAQUE 1: 8 DISPAROS
+    // ATAQUE 1 - TELEPORT SHOT
     // =========================================================
     IEnumerator TeleportShot8()
     {
+        animator.SetTrigger("TeleportShot");
         TeleportRandom();
         yield return new WaitForSeconds(0.15f);
 
@@ -142,10 +151,11 @@ public class TheSeraphPhase2 : Boss
     }
 
     // =========================================================
-    // ATAQUE 2: CAÍDA + HOMING
+    // ATAQUE 2 - HEAVENFALL + HOMING
     // =========================================================
     IEnumerator HeavenfallHoming()
     {
+        animator.SetTrigger("Heavenfall");
         isVulnerable = false;
 
         float dist = Mathf.Abs(cam.transform.position.z - transform.position.z);
@@ -169,7 +179,11 @@ public class TheSeraphPhase2 : Boss
         for (int i = 0; i < homingAmount; i++)
         {
             float offset = Random.Range(-homingSpread, homingSpread);
-            Vector3 spawnPos = new Vector3(transform.position.x + offset, transform.position.y + homingSpawnHeight, transform.position.z);
+            Vector3 spawnPos = new Vector3(
+                transform.position.x + offset,
+                transform.position.y + homingSpawnHeight,
+                transform.position.z
+            );
 
             GameObject h = Instantiate(homingProjectilePrefab, spawnPos, Quaternion.identity);
             Destroy(h, 8f);
@@ -178,13 +192,16 @@ public class TheSeraphPhase2 : Boss
         }
 
         isVulnerable = true;
+        animator.SetTrigger("Idle");
     }
 
     // =========================================================
-    // ATAQUE 3: LLUVIA
+    // ATAQUE 3 - RAIN
     // =========================================================
     IEnumerator RainAttack()
     {
+        animator.SetTrigger("Rain");
+
         float dist = Mathf.Abs(cam.transform.position.z - transform.position.z);
         transform.position = cam.ViewportToWorldPoint(new Vector3(0.85f, 0.7f, dist));
 
@@ -201,16 +218,19 @@ public class TheSeraphPhase2 : Boss
             t += rainInterval;
             yield return new WaitForSeconds(rainInterval);
         }
+
+        animator.SetTrigger("Idle");
     }
 
     // =========================================================
-    // ATAQUE 4: TELEPORT STALKER (NUEVO)
+    // ATAQUE 4 - TELEPORT STALKER
     // =========================================================
     IEnumerator TeleportStalker()
     {
         if (player == null) yield break;
 
-        // ? ADVERTENCIA: vibra por 1 segundo
+        animator.SetTrigger("Stalker");
+
         float timer = 0f;
         Vector3 originalPos = transform.position;
 
@@ -225,18 +245,14 @@ public class TheSeraphPhase2 : Boss
             yield return null;
         }
 
-        transform.position = originalPos;
-
-        // Teletransportarse al jugador, pero con distancia segura
-        Vector3 target = player.position;
         Vector3 dir = (player.position - transform.position).normalized;
         Vector3 safePos = player.position - dir * stalkerSafeDistance;
-
         transform.position = safePos;
 
         if (tpSound) audioSource.PlayOneShot(tpSound);
 
         yield return new WaitForSeconds(0.2f);
+        animator.SetTrigger("Idle");
     }
 
     // =========================================================
@@ -257,6 +273,22 @@ public class TheSeraphPhase2 : Boss
     }
 
     // =========================================================
+    // DAÑO
+    // =========================================================
+    //public override void TakeDamage(int dmg)
+    //{
+    //    if (!isVulnerable || isDead) return;
+
+    //    base.TakeDamage(dmg);
+
+    //    if (animator != null)
+    //        animator.SetTrigger("Hurt");
+
+    //    if (Life <= 0)
+    //        KillSeraphPhase2();
+    //}
+
+    // =========================================================
     // MUERTE
     // =========================================================
     protected void KillSeraphPhase2()
@@ -264,7 +296,11 @@ public class TheSeraphPhase2 : Boss
         if (isDead) return;
         isDead = true;
 
-        if (deathSound) audioSource.PlayOneShot(deathSound);
+        if (animator != null)
+            animator.SetTrigger("Death");
+
+        if (deathSound)
+            audioSource.PlayOneShot(deathSound);
 
         Destroy(gameObject, 2f);
         base.Die();

@@ -1,0 +1,361 @@
+fileFormatVersion: 2
+guid: a82e2b6d52ecd5a469796855aad57133
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1229476388210958160
+    second: Dark Eclipse Angel Shadow Rain Summoning_0
+  - first:
+      213: 2213825099813418493
+    second: Dark Eclipse Angel Shadow Rain Summoning_1
+  - first:
+      213: 5987923598534890122
+    second: Dark Eclipse Angel Shadow Rain Summoning_2
+  - first:
+      213: 3625987411056812607
+    second: Dark Eclipse Angel Shadow Rain Summoning_3
+  - first:
+      213: -4276375900996805012
+    second: Dark Eclipse Angel Shadow Rain Summoning_4
+  - first:
+      213: -7353560039252866068
+    second: Dark Eclipse Angel Shadow Rain Summoning_5
+  - first:
+      213: -3501982089033791758
+    second: Dark Eclipse Angel Shadow Rain Summoning_6
+  - first:
+      213: -7671973924868193394
+    second: Dark Eclipse Angel Shadow Rain Summoning_7
+  - first:
+      213: 3598203068136612287
+    second: Dark Eclipse Angel Shadow Rain Summoning_8
+  - first:
+      213: -7481283143787908825
+    second: Dark Eclipse Angel Shadow Rain Summoning_9
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dark Eclipse Angel Shadow Rain Summoning_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 346
+        width: 155
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0a4fc2db500fee0800000000000000
+      internalID: -1229476388210958160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Eclipse Angel Shadow Rain Summoning_1
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 346
+        width: 191
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5f83de23619be10800000000000000
+      internalID: 2213825099813418493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Eclipse Angel Shadow Rain Summoning_2
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 346
+        width: 204
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82d9d899c0691350800000000000000
+      internalID: 5987923598534890122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Eclipse Angel Shadow Rain Summoning_3
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 344
+        width: 206
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32641cc658125230800000000000000
+      internalID: 3625987411056812607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Eclipse Angel Shadow Rain Summoning_4
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 341
+        width: 181
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e5b0776c247a4c0800000000000000
+      internalID: -4276375900996805012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Eclipse Angel Shadow Rain Summoning_5
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 5
+        width: 212
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb43d9ea18e2f990800000000000000
+      internalID: -7353560039252866068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Eclipse Angel Shadow Rain Summoning_6
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 6
+        width: 217
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f64c5528d5766fc0800000000000000
+      internalID: -3501982089033791758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Eclipse Angel Shadow Rain Summoning_7
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 5
+        width: 248
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e830c2afc5ca78590800000000000000
+      internalID: -7671973924868193394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Eclipse Angel Shadow Rain Summoning_8
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 3
+        width: 282
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1e00a50a26fe130800000000000000
+      internalID: 3598203068136612287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Eclipse Angel Shadow Rain Summoning_9
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 0
+        width: 171
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72177664e942d2890800000000000000
+      internalID: -7481283143787908825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
