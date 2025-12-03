@@ -1,0 +1,397 @@
+fileFormatVersion: 2
+guid: 6da67dca50d83f84d85c36b8d7b33041
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5435367748760107103
+    second: The Pale Matron Teleport Animation-Photoroom_0
+  - first:
+      213: 2242410334540343834
+    second: The Pale Matron Teleport Animation-Photoroom_1
+  - first:
+      213: 3091779882116397933
+    second: The Pale Matron Teleport Animation-Photoroom_2
+  - first:
+      213: 1166801440259377966
+    second: The Pale Matron Teleport Animation-Photoroom_3
+  - first:
+      213: 8909699461220530083
+    second: The Pale Matron Teleport Animation-Photoroom_4
+  - first:
+      213: -4079285726559511882
+    second: The Pale Matron Teleport Animation-Photoroom_5
+  - first:
+      213: -8130430329911759639
+    second: The Pale Matron Teleport Animation-Photoroom_6
+  - first:
+      213: 4330220731042829603
+    second: The Pale Matron Teleport Animation-Photoroom_7
+  - first:
+      213: 6210810644622083538
+    second: The Pale Matron Teleport Animation-Photoroom_8
+  - first:
+      213: -8019176998455290807
+    second: The Pale Matron Teleport Animation-Photoroom_9
+  - first:
+      213: 7065344451496355454
+    second: The Pale Matron Teleport Animation-Photoroom_10
+  - first:
+      213: 1918881792755053592
+    second: The Pale Matron Teleport Animation-Photoroom_11
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: The Pale Matron Teleport Animation-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 270
+        width: 168
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a70a8f84d1b194b0800000000000000
+      internalID: -5435367748760107103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Teleport Animation-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 271
+        width: 202
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a21f68154ae1f10800000000000000
+      internalID: 2242410334540343834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Teleport Animation-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 271
+        width: 191
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b3f3dfb6538ea20800000000000000
+      internalID: 3091779882116397933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Teleport Animation-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 272
+        width: 195
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b031a5abf413010800000000000000
+      internalID: 1166801440259377966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Teleport Animation-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 277
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7f981547c95ab70800000000000000
+      internalID: 8909699461220530083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Teleport Animation-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 278
+        width: 186
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba5913ae377367c0800000000000000
+      internalID: -4079285726559511882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Teleport Animation-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3
+        width: 197
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec2c8a11b8ea2f80800000000000000
+      internalID: -8130430329911759639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Teleport Animation-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2
+        width: 158
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32517d8ffc8081c30800000000000000
+      internalID: 4330220731042829603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Teleport Animation-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 217
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d50aefff5b313650800000000000000
+      internalID: 6210810644622083538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Teleport Animation-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 0
+        width: 201
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944d610e10926b090800000000000000
+      internalID: -8019176998455290807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Teleport Animation-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 0
+        width: 212
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76a73748552d0260800000000000000
+      internalID: 7065344451496355454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Teleport Animation-Photoroom_11
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 0
+        width: 212
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8143127e2dc31aa10800000000000000
+      internalID: 1918881792755053592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

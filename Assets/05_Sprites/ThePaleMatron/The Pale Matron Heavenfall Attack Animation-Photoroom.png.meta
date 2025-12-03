@@ -1,0 +1,493 @@
+fileFormatVersion: 2
+guid: e336fd63a633daa4da96b09b7a55c3af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6875487417369119528
+    second: The Pale Matron Heavenfall Attack Animation-Photoroom_0
+  - first:
+      213: -7231739325931224877
+    second: The Pale Matron Heavenfall Attack Animation-Photoroom_1
+  - first:
+      213: 4616892698287735353
+    second: The Pale Matron Heavenfall Attack Animation-Photoroom_2
+  - first:
+      213: -932018747691849761
+    second: The Pale Matron Heavenfall Attack Animation-Photoroom_3
+  - first:
+      213: 2690047049237904702
+    second: The Pale Matron Heavenfall Attack Animation-Photoroom_4
+  - first:
+      213: 5296081976690237299
+    second: The Pale Matron Heavenfall Attack Animation-Photoroom_5
+  - first:
+      213: 4061231507581320110
+    second: The Pale Matron Heavenfall Attack Animation-Photoroom_6
+  - first:
+      213: -6740165084334281375
+    second: The Pale Matron Heavenfall Attack Animation-Photoroom_7
+  - first:
+      213: -6053021524750306640
+    second: The Pale Matron Heavenfall Attack Animation-Photoroom_8
+  - first:
+      213: 8808356418019365681
+    second: The Pale Matron Heavenfall Attack Animation-Photoroom_9
+  - first:
+      213: 6782552577619769224
+    second: The Pale Matron Heavenfall Attack Animation-Photoroom_10
+  - first:
+      213: 311100696850793240
+    second: The Pale Matron Heavenfall Attack Animation-Photoroom_11
+  - first:
+      213: -7885437624161776513
+    second: The Pale Matron Heavenfall Attack Animation-Photoroom_12
+  - first:
+      213: 4668736971600043560
+    second: The Pale Matron Heavenfall Attack Animation-Photoroom_13
+  - first:
+      213: 1250836797353708006
+    second: The Pale Matron Heavenfall Attack Animation-Photoroom_14
+  - first:
+      213: -5565888275732854247
+    second: The Pale Matron Heavenfall Attack Animation-Photoroom_15
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: The Pale Matron Heavenfall Attack Animation-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 337
+        width: 103
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4bb0e2f9c5590a0800000000000000
+      internalID: -6875487417369119528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Heavenfall Attack Animation-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 334
+        width: 126
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d085a10663b3ab90800000000000000
+      internalID: -7231739325931224877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Heavenfall Attack Animation-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 326
+        width: 140
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932098f927f721040800000000000000
+      internalID: 4616892698287735353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Heavenfall Attack Animation-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 326
+        width: 149
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7a2d313edc013f0800000000000000
+      internalID: -932018747691849761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Heavenfall Attack Animation-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 367
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3db9eee987f45520800000000000000
+      internalID: 2690047049237904702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Heavenfall Attack Animation-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 351
+        width: 107
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f58f97f767f7940800000000000000
+      internalID: 5296081976690237299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Heavenfall Attack Animation-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 330
+        width: 106
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab3200f9846c5830800000000000000
+      internalID: 4061231507581320110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Heavenfall Attack Animation-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 311
+        width: 99
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16da3c4119f1672a0800000000000000
+      internalID: -6740165084334281375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Heavenfall Attack Animation-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 60
+        width: 142
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2f6775ef85ffba0800000000000000
+      internalID: -6053021524750306640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Heavenfall Attack Animation-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 54
+        width: 173
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13393175e719d3a70800000000000000
+      internalID: 8808356418019365681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Heavenfall Attack Animation-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 54
+        width: 152
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887bf6342a7702e50800000000000000
+      internalID: 6782552577619769224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Heavenfall Attack Animation-Photoroom_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 138
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8130b2d7f60415400800000000000000
+      internalID: 311100696850793240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Heavenfall Attack Animation-Photoroom_12
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 62
+        width: 140
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c4659724c419290800000000000000
+      internalID: -7885437624161776513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Heavenfall Attack Animation-Photoroom_13
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 66
+        width: 137
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e14f52a8faac040800000000000000
+      internalID: 4668736971600043560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Heavenfall Attack Animation-Photoroom_14
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 84
+        width: 98
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e94142a07ddb5110800000000000000
+      internalID: 1250836797353708006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Heavenfall Attack Animation-Photoroom_15
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 84
+        width: 138
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a8e614a1ef1c2b0800000000000000
+      internalID: -5565888275732854247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

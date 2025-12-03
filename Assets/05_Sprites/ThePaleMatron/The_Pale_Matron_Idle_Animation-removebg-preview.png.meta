@@ -1,0 +1,349 @@
+fileFormatVersion: 2
+guid: aac1ddbe7575bb141bd327a0431cb36a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5689311756735136371
+    second: The_Pale_Matron_Idle_Animation-removebg-preview_0
+  - first:
+      213: 1538218999827703894
+    second: The_Pale_Matron_Idle_Animation-removebg-preview_1
+  - first:
+      213: 8708388106885052408
+    second: The_Pale_Matron_Idle_Animation-removebg-preview_2
+  - first:
+      213: 1293752038791812449
+    second: The_Pale_Matron_Idle_Animation-removebg-preview_3
+  - first:
+      213: -2021825548221319432
+    second: The_Pale_Matron_Idle_Animation-removebg-preview_4
+  - first:
+      213: 4772908990191754761
+    second: The_Pale_Matron_Idle_Animation-removebg-preview_5
+  - first:
+      213: 9133521479083535357
+    second: The_Pale_Matron_Idle_Animation-removebg-preview_6
+  - first:
+      213: 1935732414977979280
+    second: The_Pale_Matron_Idle_Animation-removebg-preview_7
+  - first:
+      213: -1720026974594657980
+    second: The_Pale_Matron_Idle_Animation-removebg-preview_8
+  - first:
+      213: -4289820371675024877
+    second: The_Pale_Matron_Idle_Animation-removebg-preview_9
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: The_Pale_Matron_Idle_Animation-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 211
+        width: 99
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d395bb9118b01b0800000000000000
+      internalID: -5689311756735136371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Idle_Animation-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 206
+        width: 113
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658ac7fc70ad85510800000000000000
+      internalID: 1538218999827703894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Idle_Animation-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 205
+        width: 107
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7be1d18d86ad870800000000000000
+      internalID: 8708388106885052408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Idle_Animation-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 204
+        width: 122
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1659f9bef9454f110800000000000000
+      internalID: 1293752038791812449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Idle_Animation-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 207
+        width: 121
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f67570406801f3e0800000000000000
+      internalID: -2021825548221319432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Idle_Animation-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 18
+        width: 121
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ed5a94077cc3240800000000000000
+      internalID: 4772908990191754761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Idle_Animation-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 25
+        width: 121
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbac2dc469c0ce70800000000000000
+      internalID: 9133521479083535357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Idle_Animation-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 30
+        width: 122
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093b8fe106a1dda10800000000000000
+      internalID: 1935732414977979280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Idle_Animation-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 3
+        width: 114
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4411237649c3128e0800000000000000
+      internalID: -1720026974594657980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Idle_Animation-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 7
+        width: 121
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3127314b91f7774c0800000000000000
+      internalID: -4289820371675024877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

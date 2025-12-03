@@ -1,0 +1,517 @@
+fileFormatVersion: 2
+guid: 9e010fb6df148854eaf666e636188c40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4877253019163616484
+    second: The_Pale_Matron_Death_Animation-removebg-preview_0
+  - first:
+      213: 8192171875190308360
+    second: The_Pale_Matron_Death_Animation-removebg-preview_1
+  - first:
+      213: -5259687571210963229
+    second: The_Pale_Matron_Death_Animation-removebg-preview_2
+  - first:
+      213: -1172015170161239508
+    second: The_Pale_Matron_Death_Animation-removebg-preview_3
+  - first:
+      213: 3275711496230540664
+    second: The_Pale_Matron_Death_Animation-removebg-preview_4
+  - first:
+      213: -3528415485680443099
+    second: The_Pale_Matron_Death_Animation-removebg-preview_5
+  - first:
+      213: 418120974898751752
+    second: The_Pale_Matron_Death_Animation-removebg-preview_6
+  - first:
+      213: 1303245272106106141
+    second: The_Pale_Matron_Death_Animation-removebg-preview_7
+  - first:
+      213: 2094469922028857413
+    second: The_Pale_Matron_Death_Animation-removebg-preview_8
+  - first:
+      213: -4387320768353776240
+    second: The_Pale_Matron_Death_Animation-removebg-preview_9
+  - first:
+      213: -1819663598968831257
+    second: The_Pale_Matron_Death_Animation-removebg-preview_10
+  - first:
+      213: -9155304608308300528
+    second: The_Pale_Matron_Death_Animation-removebg-preview_11
+  - first:
+      213: 8332930181988216743
+    second: The_Pale_Matron_Death_Animation-removebg-preview_12
+  - first:
+      213: 3821435386324778022
+    second: The_Pale_Matron_Death_Animation-removebg-preview_13
+  - first:
+      213: -4131751056117687757
+    second: The_Pale_Matron_Death_Animation-removebg-preview_14
+  - first:
+      213: -1926033488937185155
+    second: The_Pale_Matron_Death_Animation-removebg-preview_15
+  - first:
+      213: -6529226268504378671
+    second: The_Pale_Matron_Death_Animation-removebg-preview_16
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: The_Pale_Matron_Death_Animation-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 221
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b1d094834805cb0800000000000000
+      internalID: -4877253019163616484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Death_Animation-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 221
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ef9af9ae070b170800000000000000
+      internalID: 8192171875190308360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Death_Animation-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 221
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6fe606506d107b0800000000000000
+      internalID: -5259687571210963229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Death_Animation-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 221
+        width: 88
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a9b2f896a2cbfe0800000000000000
+      internalID: -1172015170161239508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Death_Animation-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 221
+        width: 88
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8751c77104aa57d20800000000000000
+      internalID: 3275711496230540664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Death_Animation-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 221
+        width: 88
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521a7046fcc880fc0800000000000000
+      internalID: -3528415485680443099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Death_Animation-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 221
+        width: 88
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809eaf5bfc67dc500800000000000000
+      internalID: 418120974898751752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Death_Animation-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 221
+        width: 86
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d771b8bae061210800000000000000
+      internalID: 1303245272106106141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Death_Animation-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 116
+        width: 85
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548254f0c4d011d10800000000000000
+      internalID: 2094469922028857413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Death_Animation-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 115
+        width: 89
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d4496910b1d13c0800000000000000
+      internalID: -4387320768353776240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Death_Animation-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 116
+        width: 91
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e201c409914fb6e0800000000000000
+      internalID: -1819663598968831257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Death_Animation-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 114
+        width: 98
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015794337f2d1f080800000000000000
+      internalID: -9155304608308300528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Death_Animation-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 116
+        width: 83
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afe98bc9d384a370800000000000000
+      internalID: 8332930181988216743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Death_Animation-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 116
+        width: 86
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62cfefdac37780530800000000000000
+      internalID: 3821435386324778022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Death_Animation-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 116
+        width: 76
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a92cf2e4219a6c0800000000000000
+      internalID: -4131751056117687757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Death_Animation-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 120
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7094621fba5545e0800000000000000
+      internalID: -1926033488937185155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Pale_Matron_Death_Animation-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 18
+        width: 77
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2b5a75d478365a0800000000000000
+      internalID: -6529226268504378671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

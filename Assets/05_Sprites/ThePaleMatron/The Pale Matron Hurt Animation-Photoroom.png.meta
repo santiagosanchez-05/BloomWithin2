@@ -1,0 +1,349 @@
+fileFormatVersion: 2
+guid: 287ab9bd8ba87fc46a060969073c3d35
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6293631403897413079
+    second: The Pale Matron Hurt Animation-Photoroom_0
+  - first:
+      213: 5009523608562244766
+    second: The Pale Matron Hurt Animation-Photoroom_1
+  - first:
+      213: -511879911539239709
+    second: The Pale Matron Hurt Animation-Photoroom_2
+  - first:
+      213: 3388760712515356648
+    second: The Pale Matron Hurt Animation-Photoroom_3
+  - first:
+      213: 5238951074001733151
+    second: The Pale Matron Hurt Animation-Photoroom_4
+  - first:
+      213: -3529683536798492274
+    second: The Pale Matron Hurt Animation-Photoroom_5
+  - first:
+      213: -434599444056818741
+    second: The Pale Matron Hurt Animation-Photoroom_6
+  - first:
+      213: -1329742108377849059
+    second: The Pale Matron Hurt Animation-Photoroom_7
+  - first:
+      213: 1509321150452001624
+    second: The Pale Matron Hurt Animation-Photoroom_8
+  - first:
+      213: 1527843011449762395
+    second: The Pale Matron Hurt Animation-Photoroom_9
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: The Pale Matron Hurt Animation-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 390
+        width: 245
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd5c80ba68775750800000000000000
+      internalID: 6293631403897413079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Hurt Animation-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 407
+        width: 195
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c194e2e27658540800000000000000
+      internalID: 5009523608562244766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Hurt Animation-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 394
+        width: 195
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e49b09beef65e8f0800000000000000
+      internalID: -511879911539239709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Hurt Animation-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 474
+        width: 106
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e70742e9eb470f20800000000000000
+      internalID: 3388760712515356648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Hurt Animation-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 394
+        width: 235
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f164681ae3e74b840800000000000000
+      internalID: 5238951074001733151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Hurt Animation-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 45
+        width: 116
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89d49b368b040fc0800000000000000
+      internalID: -3529683536798492274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Hurt Animation-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 43
+        width: 237
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb3965bb1ef7f9f0800000000000000
+      internalID: -434599444056818741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Hurt Animation-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 46
+        width: 97
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d136243099ecb8de0800000000000000
+      internalID: -1329742108377849059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Hurt Animation-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 41
+        width: 164
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85beca0f69f22f410800000000000000
+      internalID: 1509321150452001624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Pale Matron Hurt Animation-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 45
+        width: 235
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52b602cf1df33510800000000000000
+      internalID: 1527843011449762395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
