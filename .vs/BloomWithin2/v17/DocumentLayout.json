@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\BloomWithin2\\",
+  "WorkspaceRootPath": "D:\\UnityGames\\BloomWithin2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D24FA65E-50B5-63BA-F88D-638A0585604C}|Assembly-CSharp.csproj|D:\\BloomWithin2\\assets\\01_scripts\\theseraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D24FA65E-50B5-63BA-F88D-638A0585604C}|Assembly-CSharp.csproj|D:\\UnityGames\\BloomWithin2\\assets\\01_scripts\\theseraphphase2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24FA65E-50B5-63BA-F88D-638A0585604C}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\theseraphphase2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24FA65E-50B5-63BA-F88D-638A0585604C}|Assembly-CSharp.csproj|d:\\unitygames\\bloomwithin2\\assets\\01_scripts\\theseraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D24FA65E-50B5-63BA-F88D-638A0585604C}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\theseraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D24FA65E-50B5-63BA-F88D-638A0585604C}|Assembly-CSharp.csproj|D:\\BloomWithin2\\assets\\01_scripts\\theangel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D24FA65E-50B5-63BA-F88D-638A0585604C}|Assembly-CSharp.csproj|D:\\UnityGames\\BloomWithin2\\assets\\01_scripts\\theangel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D24FA65E-50B5-63BA-F88D-638A0585604C}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\theangel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D24FA65E-50B5-63BA-F88D-638A0585604C}|Assembly-CSharp.csproj|d:\\bloomwithin2\\assets\\01_scripts\\homingprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D24FA65E-50B5-63BA-F88D-638A0585604C}|Assembly-CSharp.csproj|D:\\UnityGames\\BloomWithin2\\assets\\01_scripts\\homingprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D24FA65E-50B5-63BA-F88D-638A0585604C}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\homingprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D24FA65E-50B5-63BA-F88D-638A0585604C}|Assembly-CSharp.csproj|D:\\BloomWithin2\\assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D24FA65E-50B5-63BA-F88D-638A0585604C}|Assembly-CSharp.csproj|D:\\UnityGames\\BloomWithin2\\assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D24FA65E-50B5-63BA-F88D-638A0585604C}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D24FA65E-50B5-63BA-F88D-638A0585604C}|Assembly-CSharp.csproj|D:\\BloomWithin2\\assets\\01_scripts\\theseraphphase2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D24FA65E-50B5-63BA-F88D-638A0585604C}|Assembly-CSharp.csproj|solutionrelative:assets\\01_scripts\\theseraphphase2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,15 +30,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Player.cs",
-              "DocumentMoniker": "D:\\BloomWithin2\\Assets\\01_Scripts\\Player.cs",
+              "DocumentMoniker": "D:\\UnityGames\\BloomWithin2\\Assets\\01_Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\Player.cs",
-              "ToolTip": "D:\\BloomWithin2\\Assets\\01_Scripts\\Player.cs",
+              "ToolTip": "D:\\UnityGames\\BloomWithin2\\Assets\\01_Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\Player.cs",
               "ViewState": "AgIAAF4BAAAAAAAAAAAowH0BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -46,36 +46,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "TheSeraphPhase2.cs",
-              "DocumentMoniker": "D:\\BloomWithin2\\Assets\\01_Scripts\\TheSeraphPhase2.cs",
+              "DocumentMoniker": "D:\\UnityGames\\BloomWithin2\\Assets\\01_Scripts\\TheSeraphPhase2.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\TheSeraphPhase2.cs",
-              "ToolTip": "D:\\BloomWithin2\\Assets\\01_Scripts\\TheSeraphPhase2.cs",
+              "ToolTip": "D:\\UnityGames\\BloomWithin2\\Assets\\01_Scripts\\TheSeraphPhase2.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\TheSeraphPhase2.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAuwHcAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAPEAAAAAAAAAAAAowBABAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T13:20:01.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomingProjectile.cs",
-              "DocumentMoniker": "D:\\BloomWithin2\\Assets\\01_Scripts\\HomingProjectile.cs",
-              "RelativeDocumentMoniker": "Assets\\01_Scripts\\HomingProjectile.cs",
-              "ToolTip": "D:\\BloomWithin2\\Assets\\01_Scripts\\HomingProjectile.cs",
-              "RelativeToolTip": "Assets\\01_Scripts\\HomingProjectile.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAqwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T13:02:14.232Z",
+              "WhenOpened": "2025-11-28T13:20:01.351Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "HomingProjectile.cs",
+              "DocumentMoniker": "D:\\UnityGames\\BloomWithin2\\Assets\\01_Scripts\\HomingProjectile.cs",
+              "RelativeDocumentMoniker": "Assets\\01_Scripts\\HomingProjectile.cs",
+              "ToolTip": "D:\\UnityGames\\BloomWithin2\\Assets\\01_Scripts\\HomingProjectile.cs",
+              "RelativeToolTip": "Assets\\01_Scripts\\HomingProjectile.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:02:14.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "TheSeraph.cs",
-              "DocumentMoniker": "D:\\BloomWithin2\\Assets\\01_Scripts\\TheSeraph.cs",
+              "DocumentMoniker": "D:\\UnityGames\\BloomWithin2\\Assets\\01_Scripts\\TheSeraph.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\TheSeraph.cs",
-              "ToolTip": "D:\\BloomWithin2\\Assets\\01_Scripts\\TheSeraph.cs",
+              "ToolTip": "D:\\UnityGames\\BloomWithin2\\Assets\\01_Scripts\\TheSeraph.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\TheSeraph.cs",
               "ViewState": "AgIAAGEAAAAAAAAAAAAwwCIBAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -84,16 +84,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TheAngel.cs",
-              "DocumentMoniker": "D:\\BloomWithin2\\Assets\\01_Scripts\\TheAngel.cs",
+              "DocumentMoniker": "D:\\UnityGames\\BloomWithin2\\Assets\\01_Scripts\\TheAngel.cs",
               "RelativeDocumentMoniker": "Assets\\01_Scripts\\TheAngel.cs",
-              "ToolTip": "D:\\BloomWithin2\\Assets\\01_Scripts\\TheAngel.cs",
+              "ToolTip": "D:\\UnityGames\\BloomWithin2\\Assets\\01_Scripts\\TheAngel.cs",
               "RelativeToolTip": "Assets\\01_Scripts\\TheAngel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T00:22:04.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T00:22:04.558Z"
             }
           ]
         }
