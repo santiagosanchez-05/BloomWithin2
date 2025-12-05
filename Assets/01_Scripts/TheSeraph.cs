@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TheSeraph : Boss
 {
@@ -269,6 +270,10 @@ public class TheSeraph : Boss
     // =========================================================
     // MUERTE
     // =========================================================
+    protected override void Die()
+    {
+        KillSeraph();
+    }
     protected void KillSeraph()
     {
         if (isDead) return;
@@ -279,7 +284,8 @@ public class TheSeraph : Boss
         anim.SetTrigger("Death");           // ✅ ANIM MUERTE
 
         StopAllCoroutines();
-        Destroy(gameObject, 2f);
+
+        SceneManager.LoadScene("TheEclipsedOne");
 
         base.Die();
     }

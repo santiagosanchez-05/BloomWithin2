@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7610367842685390156}
   - component: {fileID: 8467941576469427243}
   - component: {fileID: 3354680598013209418}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: RainProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1941485525289194864}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -117,7 +117,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!60 &3354680598013209418
 PolygonCollider2D:

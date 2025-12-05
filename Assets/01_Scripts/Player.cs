@@ -345,6 +345,12 @@ public class Player : MonoBehaviour
         // ☠️ MUERTE
         if (life <= 0)
         {
+            if (SceneManager.GetActiveScene().name == "TheEclipsedOne")
+            {
+                Debug.Log("☠️ Jugador ha muerto.");
+                SceneManager.LoadScene("ThePaleMatron");
+                return;
+            }
             Debug.Log("☠️ Jugador ha muerto.");
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             return;

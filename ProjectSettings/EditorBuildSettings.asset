@@ -50,4 +50,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/00_Scenes/Historia/LuzVacio.unity
     guid: 5b672803ecb2a8649a615328875a8f57
+  - enabled: 1
+    path: Assets/00_Scenes/Level3.unity
+    guid: bf5c166a72f685a4ab1d1a9de21dcbcc
+  - enabled: 1
+    path: Assets/00_Scenes/Level4.unity
+    guid: 802130ce7d52e014683317f48f96a5b4
+  - enabled: 1
+    path: Assets/00_Scenes/TheAngel.unity
+    guid: 90ae7520e927e2743b8f10da6f638e8d
+  - enabled: 1
+    path: Assets/00_Scenes/ThePaleMatron.unity
+    guid: a3ddaa07f83a68548a92da4f08ec91cd
+  - enabled: 1
+    path: Assets/00_Scenes/TheEclipsedOne.unity
+    guid: 4d916c6ab73a67d4db9e5ddb96280595
   m_configObjects: {}

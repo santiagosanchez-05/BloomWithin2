@@ -291,6 +291,10 @@ public class TheSeraphPhase2 : Boss
     // =========================================================
     // MUERTE
     // =========================================================
+    protected override void Die()
+    {
+        KillSeraphPhase2();
+    }
     protected void KillSeraphPhase2()
     {
         if (isDead) return;

@@ -286,7 +286,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18187888}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.29019, y: -7.2319794, z: -10}
+  m_LocalPosition: {x: -30.29033, y: -7.2319794, z: -10}
   m_LocalScale: {x: 0.5, y: 0.7, z: 1}
   m_Children:
   - {fileID: 271045667}
@@ -601,7 +601,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   enemyLayer: 9
-  projectileLayer: 8
+  projectileLayer: 10
 --- !u!4 &131439171
 Transform:
   m_ObjectHideFlags: 0
@@ -6603,7 +6603,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.289728, y: -6.971245, z: -10}
+  m_LocalPosition: {x: -30.28987, y: -6.9712477, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7831,7 +7831,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 29e436ea328d9154d9f32baa315a54c6, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 669a936e0833c544798774a7bbe4dcfc, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

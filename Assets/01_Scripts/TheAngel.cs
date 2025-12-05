@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TheAngel : Boss
 {
@@ -276,6 +277,11 @@ public class TheAngel : Boss
     // =========================
     // MUERTE
     // =========================
+    protected override void Die()
+    {
+        KillAngel();
+    }
+
     protected void KillAngel()
     {
         if (isDead) return;
@@ -288,9 +294,10 @@ public class TheAngel : Boss
         if (deathSound && audioSource)
             audioSource.PlayOneShot(deathSound);
 
-        StopAllCoroutines();
-        Destroy(gameObject, 2f);
+        SceneManager.LoadScene("Level4");
 
-        base.Die();
+        StopAllCoroutines();
+        SceneManager.LoadScene("Level4");
     }
+
 }
