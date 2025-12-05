@@ -7103,7 +7103,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125224182}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.366848, y: -0.935879, z: -10}
+  m_LocalPosition: {x: -2.3570585, y: -0.935879, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -28233,6 +28233,10 @@ MonoBehaviour:
   walkingSound: {fileID: 8300000, guid: ecc47b24f6072d94cb660ee5f472cad5, type: 3}
   jumpingSound: {fileID: 8300000, guid: 4478678479da72e4cb8ee3b034eabc21, type: 3}
   footstepInterval: 0.4
+  isShieldUnlocked: 1
+  isShieldActive: 0
+  shieldDuration: 3
+  shieldCooldown: 10
   groundCheck: {fileID: 1762210558}
   groundRadius: 0.15
   groundLayer:
@@ -28261,6 +28265,7 @@ MonoBehaviour:
   projectileSpeed: 12
   shootCooldown: 0.8
   shootSound: {fileID: 0}
+  invincibleTime: 1
   animator: {fileID: 1313647621}
   hitsEnemy: 0
 --- !u!4 &1313647626
@@ -40561,7 +40566,7 @@ GameObject:
   - component: {fileID: 1588196789}
   m_Layer: 3
   m_Name: Tilemap
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

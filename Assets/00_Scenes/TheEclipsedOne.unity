@@ -286,7 +286,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18187888}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.290422, y: -7.2319794, z: -10}
+  m_LocalPosition: {x: -30.29019, y: -7.2319794, z: -10}
   m_LocalScale: {x: 0.5, y: 0.7, z: 1}
   m_Children:
   - {fileID: 271045667}
@@ -597,6 +597,11 @@ MonoBehaviour:
   invincibleTime: 1
   animator: {fileID: 131439172}
   hitsEnemy: 0
+  groundDashMask:
+    serializedVersion: 2
+    m_Bits: 8
+  enemyLayer: 9
+  projectileLayer: 8
 --- !u!4 &131439171
 Transform:
   m_ObjectHideFlags: 0
@@ -6598,7 +6603,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.28996, y: -6.9712486, z: -10}
+  m_LocalPosition: {x: -30.289728, y: -6.971245, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6701,7 +6706,7 @@ GameObject:
   - component: {fileID: 589230427}
   - component: {fileID: 589230432}
   - component: {fileID: 589230433}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TheAngel
   m_TagString: Boss
   m_Icon: {fileID: 0}
@@ -9603,7 +9608,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 0}
   m_FillRect: {fileID: 2125643971}
   m_HandleRect: {fileID: 0}

@@ -80,6 +80,11 @@ public class Player : MonoBehaviour
 
     public int hitsEnemy = 0;
 
+    [Header("Dash Collision Layers")]
+    public LayerMask groundDashMask;   // SOLO ground
+    public int enemyLayer = 7;         // pon aquí el número real de tu layer Enemy
+    public int projectileLayer = 8;    // pon aquí el número real de Projectile
+
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -443,30 +448,84 @@ public class Player : MonoBehaviour
         CheckGrounded();
     }
 
+    //IEnumerator Dash()
+    //{
+    //    canDash = false;
+    //    isDashing = true;
+
+    //    float dashDirection = lastDirection;
+    //    SpriteRenderer sr = GetComponent<SpriteRenderer>();
+    //    if (sr != null) sr.enabled = false;
+    //    Instantiate(DashEffect, transform.position, transform.rotation);
+
+    //    RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right * dashDirection, dashDistance, LayerMask.GetMask("Ground"));
+    //    Vector2 targetPos = hit.collider != null
+    //        ? hit.point - (Vector2.right * dashDirection * 0.2f)
+    //        : new Vector2(transform.position.x + dashDistance * dashDirection, transform.position.y);
+
+    //    rb.position = targetPos;
+    //    UIAudioManager.Instance.PlaySFX(dashSound);
+
+    //    yield return new WaitForSeconds(0.1f);
+
+    //    Instantiate(DashEffect, transform.position, transform.rotation);
+    //    if (sr != null) sr.enabled = true;
+
+    //    isDashing = false;
+    //    yield return new WaitForSeconds(dashCooldown);
+    //    canDash = true;
+    //}
     IEnumerator Dash()
     {
         canDash = false;
         isDashing = true;
 
+        // ✅ IGNORAR ENEMIGOS Y PROYECTILES DURANTE DASH
+        Physics2D.IgnoreLayerCollision(gameObject.layer, enemyLayer, true);
+        Physics2D.IgnoreLayerCollision(gameObject.layer, projectileLayer, true);
+
         float dashDirection = lastDirection;
+
         SpriteRenderer sr = GetComponent<SpriteRenderer>();
         if (sr != null) sr.enabled = false;
+
         Instantiate(DashEffect, transform.position, transform.rotation);
-
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right * dashDirection, dashDistance, LayerMask.GetMask("Ground"));
-        Vector2 targetPos = hit.collider != null
-            ? hit.point - (Vector2.right * dashDirection * 0.2f)
-            : new Vector2(transform.position.x + dashDistance * dashDirection, transform.position.y);
-
-        rb.position = targetPos;
         UIAudioManager.Instance.PlaySFX(dashSound);
+
+        // --- SOLO DETECTA GROUND ---
+        ContactFilter2D filter = new ContactFilter2D();
+        filter.SetLayerMask(groundDashMask);
+        filter.useTriggers = false;
+
+        RaycastHit2D[] hits = new RaycastHit2D[1];
+
+        Collider2D col = GetComponent<Collider2D>();
+        int hitCount = col.Cast(Vector2.right * dashDirection, filter, hits, dashDistance);
+
+        Vector2 targetPos;
+
+        if (hitCount > 0)
+        {
+            targetPos = hits[0].point - Vector2.right * dashDirection * 0.1f;
+        }
+        else
+        {
+            targetPos = rb.position + Vector2.right * dashDirection * dashDistance;
+        }
+
+        rb.MovePosition(targetPos);
 
         yield return new WaitForSeconds(0.1f);
 
         Instantiate(DashEffect, transform.position, transform.rotation);
         if (sr != null) sr.enabled = true;
 
+        // ✅ RESTAURAR COLISIONES
+        Physics2D.IgnoreLayerCollision(gameObject.layer, enemyLayer, false);
+        Physics2D.IgnoreLayerCollision(gameObject.layer, projectileLayer, false);
+
         isDashing = false;
+
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;
     }

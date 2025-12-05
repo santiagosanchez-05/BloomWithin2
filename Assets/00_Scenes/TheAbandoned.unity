@@ -286,7 +286,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18187888}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.224178, y: -0.9339936, z: -10}
+  m_LocalPosition: {x: -5.223796, y: -0.9339936, z: -10}
   m_LocalScale: {x: 0.5, y: 0.7, z: 1}
   m_Children:
   - {fileID: 271045667}
@@ -644,6 +644,10 @@ MonoBehaviour:
   walkingSound: {fileID: 8300000, guid: ecc47b24f6072d94cb660ee5f472cad5, type: 3}
   jumpingSound: {fileID: 8300000, guid: 4478678479da72e4cb8ee3b034eabc21, type: 3}
   footstepInterval: 0.4
+  isShieldUnlocked: 1
+  isShieldActive: 0
+  shieldDuration: 3
+  shieldCooldown: 10
   groundCheck: {fileID: 1500802368}
   groundRadius: 0.15
   groundLayer:
@@ -672,6 +676,7 @@ MonoBehaviour:
   projectileSpeed: 12
   shootCooldown: 0.8
   shootSound: {fileID: 8300000, guid: 78b28df32fa799942b3ed106b060d148, type: 3}
+  invincibleTime: 1
   animator: {fileID: 131439172}
   hitsEnemy: 0
 --- !u!4 &131439171
@@ -7030,7 +7035,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.4904637, y: 0.3212664, z: -10}
+  m_LocalPosition: {x: 2.4943075, y: 0.3212664, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9127,6 +9132,10 @@ MonoBehaviour:
   walkingSound: {fileID: 8300000, guid: ecc47b24f6072d94cb660ee5f472cad5, type: 3}
   jumpingSound: {fileID: 8300000, guid: 4478678479da72e4cb8ee3b034eabc21, type: 3}
   footstepInterval: 0.4
+  isShieldUnlocked: 1
+  isShieldActive: 0
+  shieldDuration: 3
+  shieldCooldown: 10
   groundCheck: {fileID: 1044244317}
   groundRadius: 0.15
   groundLayer:
@@ -9155,6 +9164,7 @@ MonoBehaviour:
   projectileSpeed: 12
   shootCooldown: 0.8
   shootSound: {fileID: 0}
+  invincibleTime: 1
   animator: {fileID: 1331393652}
   hitsEnemy: 0
 --- !u!114 &1331393657
@@ -10813,7 +10823,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 0}
   m_FillRect: {fileID: 2125643971}
   m_HandleRect: {fileID: 0}

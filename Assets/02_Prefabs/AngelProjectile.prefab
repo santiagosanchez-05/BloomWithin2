@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7137681499618254864}
   - component: {fileID: 6841678745042634673}
   - component: {fileID: 8330359863149970283}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AngelProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
