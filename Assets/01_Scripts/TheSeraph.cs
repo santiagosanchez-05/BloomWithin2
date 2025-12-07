@@ -285,7 +285,7 @@ public class TheSeraph : Boss
 
         StopAllCoroutines();
 
-        SceneManager.LoadScene("TheEclipsedOne");
+        SceneManager.LoadScene("DerrotaThePaleMatron");
 
         base.Die();
     }

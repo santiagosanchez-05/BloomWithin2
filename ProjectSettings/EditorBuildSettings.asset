@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/00_Scenes/Historia/Historia.unity
     guid: 526538e1f4cd3ed4e824e542fd634abe
   - enabled: 1
+    path: Assets/00_Scenes/Historia2/IniciPart2.unity
+    guid: dcb52d643ce38fc4a976dd9215ef8413
+  - enabled: 1
     path: Assets/00_Scenes/Intro.unity
     guid: fdd1f05dbbea4a0468fc812c5601fa46
   - enabled: 1
@@ -54,15 +57,24 @@ EditorBuildSettings:
     path: Assets/00_Scenes/Level3.unity
     guid: bf5c166a72f685a4ab1d1a9de21dcbcc
   - enabled: 1
+    path: Assets/00_Scenes/TheAngel.unity
+    guid: 90ae7520e927e2743b8f10da6f638e8d
+  - enabled: 1
     path: Assets/00_Scenes/Level4.unity
     guid: 802130ce7d52e014683317f48f96a5b4
   - enabled: 1
-    path: Assets/00_Scenes/TheAngel.unity
-    guid: 90ae7520e927e2743b8f10da6f638e8d
+    path: Assets/00_Scenes/Historia2/DerrotaAngel.unity
+    guid: a039d31699e9ed746ad1909029f73b84
   - enabled: 1
     path: Assets/00_Scenes/ThePaleMatron.unity
     guid: a3ddaa07f83a68548a92da4f08ec91cd
   - enabled: 1
+    path: Assets/00_Scenes/Historia2/DerrotaThePaleMatron.unity
+    guid: e21ffee1899d9e54eb69ee48ff4365db
+  - enabled: 1
     path: Assets/00_Scenes/TheEclipsedOne.unity
     guid: 4d916c6ab73a67d4db9e5ddb96280595
+  - enabled: 1
+    path: Assets/00_Scenes/Historia2/DerrotaTheEclipsedOne.unity
+    guid: 03bf17dd7ab898a44bb0e70f12b21c9a
   m_configObjects: {}

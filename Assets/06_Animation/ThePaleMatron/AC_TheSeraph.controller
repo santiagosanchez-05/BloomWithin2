@@ -199,31 +199,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!1101 &-1222535400107923432
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: Death
-    m_EventTreshold: 0
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 3447531095426636031}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
-  m_ExitTime: 0.75
-  m_HasExitTime: 0
-  m_HasFixedDuration: 1
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
 --- !u!1101 &-1070783233669014519
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -488,32 +463,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!1102 &3447531095426636031
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Seraph_Death
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 1dddd5b1c89791d4e8aaa48c59e09c54, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
 --- !u!1101 &4761075417955319398
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -552,9 +501,6 @@ AnimatorStateMachine:
     m_State: {fileID: -6594111859954160067}
     m_Position: {x: 10, y: 550, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 3447531095426636031}
-    m_Position: {x: 300, y: 140, z: 0}
-  - serializedVersion: 1
     m_State: {fileID: 6895608909225289359}
     m_Position: {x: -240, y: 130, z: 0}
   - serializedVersion: 1
@@ -584,7 +530,6 @@ AnimatorStateMachine:
   - {fileID: 4761075417955319398}
   - {fileID: -5518405273683739401}
   - {fileID: 8093729396062617810}
-  - {fileID: -1222535400107923432}
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []

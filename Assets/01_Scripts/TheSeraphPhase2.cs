@@ -1,5 +1,6 @@
-using System.Collections;
+ï»¿using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TheSeraphPhase2 : Boss
 {
@@ -79,7 +80,7 @@ public class TheSeraphPhase2 : Boss
     }
 
     // =========================================================
-    // PATRÓN DE ATAQUES
+    // PATRÃ“N DE ATAQUES
     // =========================================================
     IEnumerator AttackPattern()
     {
@@ -256,7 +257,7 @@ public class TheSeraphPhase2 : Boss
     }
 
     // =========================================================
-    // DAÑO POR CONTACTO
+    // DAÃ‘O POR CONTACTO
     // =========================================================
     private void OnCollisionStay2D(Collision2D c)
     {
@@ -273,7 +274,7 @@ public class TheSeraphPhase2 : Boss
     }
 
     // =========================================================
-    // DAÑO
+    // DAÃ‘O
     // =========================================================
     //public override void TakeDamage(int dmg)
     //{
@@ -300,13 +301,13 @@ public class TheSeraphPhase2 : Boss
         if (isDead) return;
         isDead = true;
 
-        if (animator != null)
-            animator.SetTrigger("Death");
+        if (deathSound) audioSource.PlayOneShot(deathSound);
+         
 
-        if (deathSound)
-            audioSource.PlayOneShot(deathSound);
+        StopAllCoroutines();
 
-        Destroy(gameObject, 2f);
+        SceneManager.LoadScene("DerrotaTheEclipsedOne");
+
         base.Die();
     }
 }

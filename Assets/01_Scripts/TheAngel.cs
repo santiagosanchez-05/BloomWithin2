@@ -294,10 +294,10 @@ public class TheAngel : Boss
         if (deathSound && audioSource)
             audioSource.PlayOneShot(deathSound);
 
-        SceneManager.LoadScene("Level4");
+        SceneManager.LoadScene("DerrotaAngel");
 
         StopAllCoroutines();
-        SceneManager.LoadScene("Level4");
+        SceneManager.LoadScene("DerrotaAngel");
     }
 
 }
